@@ -1,0 +1,111 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/95105048e2.js" crossorigin="anonymous"></script>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+ 
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="alert">
+        <span id="alert-text">
+            Gilfoyle sent you a message
+        </span>
+    </div>
+
+    <main>
+
+        <div id="register" style="display: none;">
+            <div class="card" style="width: 90%;">
+                <div class="card-header text-center">
+                    <h5>Register</h5>
+                </div>
+                <div class="card-body">
+                    <form id="register-form">
+                        <input type="text" required class="form-control" placeholder="Name" id="reg-name">
+                        <br>
+                        <input type="email" required class="form-control" placeholder="Email" id="reg-email">
+                        <br>
+                        <input type="text" required class="form-control" placeholder="Password" id="reg-pass">
+                        <br>
+                        <input type="text" class="form-control" placeholder="Image URL" id="reg-image">
+                        <br>
+                        <button class="btn btn-warning form-control" type="submit">Register</button>
+                        <br>
+                        <a class="nav-link text-center" onclick="switchLog()">Log In ?</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div id="login">
+            <div class="card" style="width: 90%;">
+                <div class="card-header text-center">
+                    <h5>Login</h5>
+                </div>
+                <div class="card-body">
+                    <form id="login-form">
+                        <input type="email" required class="form-control" placeholder="Email" id="log-email" value="ihatedinesh@pipermail.com">
+                        <br>
+                        <input type="text" required class="form-control" placeholder="Password" id="log-pass" value="ninja.hacker">
+                        <br>
+                        <button class="btn btn-warning form-control" type="submit">Login</button>
+                        <br>
+                        <a class="nav-link text-center" onclick="switchReg()">Register ?</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div id="friend-window" style="display: none;">
+            <div class="card-header text-white bg-success" id="current-user">
+                <h6 class="text-white">Whats App</h6>
+                <div class="frnd-img" id="cur-user-profile"></div>
+            </div>
+            <div id="friend-list">
+                
+            </div>
+        </div>
+
+        <div id="chat-window" style="display: none;">
+            <div class="p-2 d-flex align-items-center justify-content-between bg-success">
+                <button id="to-list" class="btn">
+                    <i class="fas fa-arrow-left text-white"></i>
+                </button>
+                <div id="friend-on-chat">
+                    <span style="font-weight: 500;">Bertram Gilfoyle</span>
+                    <div class="frnd-img"></div>
+                </div>
+            </div>
+            <div id="messages">
+                
+            </div>
+            <div>
+                <form id="chatbox">
+                    <input type="text" id="chat-text" class="form-control" placeholder="Type a message">
+                    <button type="submit" class="btn btn-success"><i class="far fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <script defer src="./app.js"></script>
+</body>
+</html>
