@@ -1,0 +1,74 @@
+[
+    {
+        "id" : "U001",
+        "name" : "Bertram Gillfoyle",
+        "email" : "ihatedinesh@pipermail.com",
+        "profile" : "https://openpsychometrics.org/tests/characters/test-resources/pics/SV/4.jpg",
+        "password" : "ninja.hacker",
+        "online" : false
+    },
+    {
+        "id" : "U002",
+        "name" : "Dinesh Chugtai",
+        "email" : "pakistanidenzel@pipermail.com",
+        "profile" : "https://openpsychometrics.org/tests/characters/test-resources/pics/SV/5.jpg",
+        "password" : "end.gillfoyle",
+        "online" : false
+    },
+    {
+        "id" : "U003",
+        "name" : "Richard Hendricks",
+        "email" : "coolceo@pipermail.com",
+        "profile" : "https://avatars0.githubusercontent.com/u/58340587?v=4",
+        "password" : "notcrazy.opposite",
+        "online" : false
+    },
+    {
+        "id" : "U004",
+        "name" : "Erlich Bachman",
+        "email" : "aviato@pipermail.com",
+        "profile" : "https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters_opt/p-silicon-valley-t-j-miller.jpg",
+        "password" : "bachmanity.insanity",
+        "online" : false
+    },
+    {
+        "id" : "U005",
+        "name" : "Nelson Bighetti",
+        "email" : "bighead@pipermail.com",
+        "profile" : "https://openpsychometrics.org/tests/characters/test-resources/pics/SV/3.jpg",
+        "password" : "thats.totaly.fair",
+        "online" : false
+    },
+    {
+        "id" : "U006",
+        "name" : "Jared Dunn",
+        "email" : "coo@pipermail.com",
+        "profile" : "https://static.tvmaze.com/uploads/images/medium_portrait/222/556599.jpg",
+        "password" : "scrum.is.best",
+        "online" : false
+    },
+    {
+        "id" : "U007",
+        "name" : "Monica Hall",
+        "email" : "whitewitch@pipermail.com",
+        "profile" : "https://openpsychometrics.org/tests/characters/test-resources/pics/SV/7.jpg",
+        "password" : "briemhall.who",
+        "online" : false
+    },
+    {
+        "id" : "U008",
+        "name" : "Gavin Belson",
+        "email" : "boldbelson@hooli.com",
+        "profile" : "https://www.spur.org/sites/default/files/styles/inline_image_1x_tiny_/public/2016-09/Screen%20Shot%202016-09-21%20at%2012.34.44%20PM.png?itok=jB6dH2Gf",
+        "password" : "",
+        "online" : false
+    },
+    {
+        "id" : "U009",
+        "name" : "Jian Yang",
+        "email" : "erlichbachman@newpiedpiper.com",
+        "profile" : "https://openpsychometrics.org/tests/characters/test-resources/pics/SV/10.jpg",
+        "password" : "erlich.is.fat.and,poor",
+        "online" : false
+    }
+]

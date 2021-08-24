@@ -1,0 +1,97 @@
+[
+    {
+        "participants": ["U001","U002"],
+        "chats": [
+            {
+                "timestamp": "2021-08-22T18:08:33.748Z",
+                "text": "Hey, Gilfoyle, I thought you were a Satanist?",
+                "from": "U002"
+            },
+            { 
+                "timestamp": "2021-08-22T18:08:33.748Z",
+                "text" : "I'm a LaVeyan Satanist",
+                "from" : "U001"
+            },
+            { 
+                "timestamp": "2021-08-22T18:09:33.748Z",
+                "text" : "with some theistic tendencies.",
+                "from" : "U001"
+            },
+            { 
+                "timestamp": "2021-08-22T18:10:33.748Z",
+                "text" : "Oh, some theistic tendencies.",
+                "from" : "U002"
+            },
+            { 
+                "timestamp": "2021-08-22T18:10:33.748Z",
+                "text" : "Well then, what's with the cross?",
+                "from" : "U002"
+            },
+            { 
+                "timestamp": "2021-08-22T18:11:33.748Z",
+                "text" : "It's an upside down cross.",
+                "from" : "U001"
+            },
+            { 
+                "timestamp": "2021-08-22T18:12:33.748Z",
+                "text" : "You should get another tattoo that says, \"This side up\" on it.",
+                "from" : "U002"
+            }
+        ]
+    },
+    {
+        "participants": ["U001","U003"],
+        "chats": [
+            {
+                "timestamp": "2021-08-22T18:08:13.748Z",
+                "text": "a word regarding your decision to integrate Eklow's AI onto our network.",
+                "from": "U001"
+            },
+            { 
+                "timestamp": "2021-08-22T18:08:13.748Z",
+                "text" : "I would like to formally object",
+                "from" : "U001"
+            },
+            { 
+                "timestamp": "2021-08-22T18:09:14.748Z",
+                "text" : "I don't have time for this, Gilfoyle",
+                "from" : "U003"
+            },
+            { 
+                "timestamp": "2021-08-22T18:09:14.748Z",
+                "text" : "I don't mind",
+                "from" : "U001"
+            },
+            { 
+                "timestamp": "2021-08-22T18:10:33.748Z",
+                "text" : "AI is starting to operate on levels we don't even understand",
+                "from" : "U001"
+            },
+            { 
+                "timestamp": "2021-08-22T18:10:33.748Z",
+                "text" : "Elon Musk himself gives humanity a 5% shot of surviving AI, and he is a Walt Disney-level optimist.",
+                "from" : "U001"
+            },
+            { 
+                "timestamp": "2021-08-22T18:11:33.748Z",
+                "text" : "Right now, we are a closed system. But once we launch to the world, to potentially millions of users, there's no shutting down, Richard.",
+                "from" : "U001"
+            },
+            { 
+                "timestamp": "2021-08-22T18:12:33.748Z",
+                "text" : "Are you prepared to be responsible for giving sophisticated AI that kind of power?",
+                "from" : "U001"
+            },
+            { 
+                "timestamp": "2021-08-22T18:12:33.748Z",
+                "text" : "What do you want me to do. Gilfoyle?",
+                "from" : "U003"
+            },
+            { 
+                "timestamp": "2021-08-22T18:13:33.748Z",
+                "text" : "Laurie and Monica forced this on us, but they did give us K-Hole Games.",
+                "from" : "U003"
+            }
+        ]
+    }
+]
